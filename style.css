@@ -1,0 +1,422 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	outline: 0;
+	font-family: Arial,Verdana,sans-serif;
+	font-style:normal;
+}
+
+body{
+	background: url("images/chanel9.jpg") no-repeat right bottom;
+	height:100%;
+	width:100%;
+}
+a{
+	cursor: pointer;
+	
+}
+p{
+	text-align:left;
+}
+div.wrapper {
+     color: #FFFFFF;
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+div.headerWrp{
+    position:relative;
+    height:250px;
+    width: 100%;
+	float:left;
+}
+header{
+    clear: both;
+    float: none;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    width: 867px;
+}
+div.logo {
+	float:left;
+	width:100%;
+	height:250px;
+	background:url("images/logo.png") no-repeat center;
+}
+div.menuWrp{
+    float: left;
+    height: 34px;
+    margin-bottom:5px;
+    margin-top: 51px;
+    position: relative;
+    width: 100%;
+}
+div.menuWrp2{
+	margin-bottom: 33px;
+	float: left;
+    height: 34px;
+    margin-top: 10px;
+    position: relative;
+    width: 100%;
+}
+nav{
+    clear: both;
+    float: none;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    width: 867px;
+}
+nav a{
+	float: left;
+	position: relative;
+	width: 203px;
+	height: 35px;
+	text-align:center;
+	float: left;
+	position: relative;
+	font-size: 12px;
+    font-weight: bold;
+	line-height:35px;
+}
+nav a.home{
+	background: url("images/sprite.png") no-repeat scroll 36px -14px transparent;
+}
+nav a.home:hover{
+	background: url("images/sprite.png") no-repeat scroll -164px -14px transparent;
+}
+nav a.add_blog{
+	background: url("images/sprite.png") no-repeat scroll 7px -49px transparent;
+}
+nav a.add_blog:hover{
+	background: url("images/sprite.png") no-repeat scroll -193px -49px transparent;
+}
+nav a.add_user{
+	background: url("images/sprite.png") no-repeat scroll -10px -88px transparent;
+}
+nav a.add_user:hover{
+	background: url("images/sprite.png") no-repeat scroll -210px -88px transparent;
+}
+nav a.login{
+	background: url("images/sprite.png") no-repeat scroll 7px -127px transparent;
+}
+nav a.login:hover{
+	background: url("images/sprite.png") no-repeat scroll -193px -127px transparent;
+}
+nav a.contact_us{
+	background: url("images/sprite.png") no-repeat scroll -12px -167px transparent;
+}
+nav a.contact_us:hover{
+	background: url("images/sprite.png") no-repeat scroll -212px -167px transparent;
+}
+nav a.login{
+	background: url("images/sprite.png") no-repeat scroll -10px -127px;
+}
+nav a.login:hover{
+	background: url("images/sprite.png") no-repeat scroll -210px -127px;
+}
+nav a.logout{
+	background: url("images/sprite.png") no-repeat scroll -10px -167px;
+}
+nav a.logout:hover{
+	background: url("images/sprite.png") no-repeat scroll -210px -167px;
+}
+nav a.add_category{
+	background: url("images/sprite.png") no-repeat scroll -6px -267px;
+	width:235px;
+}
+nav a.add_category:hover{
+	background: url("images/sprite.png") no-repeat scroll -6px -299px;
+	width:235px;
+}
+nav a.del_category{
+	background: url("images/sprite.png") no-repeat scroll -6px -337px;
+	width:235px;
+}
+nav a.del_category:hover{
+	background: url("images/sprite.png") no-repeat scroll -6px -369px;
+	width:235px;
+}
+nav a.list_blog{
+	background: url("images/sprite.png") no-repeat scroll -6px -407px;
+	width:235px;
+}
+nav a.list_blog:hover{
+	background: url("images/sprite.png") no-repeat scroll -6px -439px;
+	width:235px;
+}
+
+
+div.line1{
+	width:867px;
+	height:2px;
+	background:black;
+	margin:0 auto;
+}
+div.sectionWrp{
+    float: left;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+section{
+	clear: both;
+    float: none;
+    margin: 0 auto;
+    position: relative;
+    width: 700px;
+	margin-top:37px;
+}
+form{
+	background: none repeat scroll 0 0 black;
+    position: relative;
+    width: 100%;
+	float:left;
+	margin-top:20px;
+}
+div.formwrp2{
+	background: none repeat scroll 0 0 black;
+    position: relative;
+    width: 100%;
+	float:left;
+	margin-top:20px;
+}
+div.flower{
+	background: url("images/sprite.png") no-repeat scroll 10px -533px;
+    height: 225px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 280px;
+}
+div.wrp{
+	height:607px;
+	float:left;
+	position:relative;
+}
+ div.name{
+	float: left;
+    height: 39px;
+    width: 383px;
+}
+input.name{
+	width:375px;
+	height:38px;
+	float:left;
+}
+select{
+	position:relative;
+	width:100%;
+	height:38px;
+	float:left;
+	text-decoration:none;
+	border:none;
+}
+textarea.text_into{
+	width:375px;
+	height:148px;
+	float:left;
+	resize: none;
+}
+ a.cancel_button{
+	background: none repeat scroll 0 0 #FE57A1;
+    color: #FFFFFF;
+    float: right;
+    height: 34px;
+    line-height: 34px;
+    margin-right: 145px;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 175px;
+}
+a.cancel_button:hover{
+	background:#ae3068;
+}
+div.white{
+	background: none repeat scroll 0 0 #FFFFFF;
+    float: left;
+    margin-bottom: 17px;
+    padding: 10px;
+    width: 516px;
+	
+}
+input.add{
+	position:relative;
+	color:white;
+	width:161px;
+	height:25px;
+	float:left;
+	text-decoration:none;
+	border:none;
+	background:none;
+}
+input.email{
+	width:375px;
+	height:38px;
+	float:left;
+}
+div.title{
+	width:283px;
+	height:71px;
+	float:left;
+}
+p.title{
+	float:left;
+	line-height:30px;
+	font-size:21px;
+	color:#fe57a1;
+	width:100%;
+	margin-bottom:10px;
+}
+div.contentwrp{
+	width:526px;
+	padding:69px;
+	float:left;
+}
+
+p.title2{
+float:left;
+line-height:30px;
+font-size:17px;
+color:white;
+width:100%;
+}
+label{
+float:left;
+line-height:30px;
+font-size:17px;
+color:white;
+width:100%;
+}
+
+p.content2{
+float:left;
+line-height:30px;
+font-size:17px;
+background:#ffb1d4;
+width:100%;
+color:black;
+ margin-top: 14px;
+}
+
+footer{
+	float: left;
+    position: relative;
+    text-align: center;
+    width: 100%;
+	margin-top:33px;
+	margin-bottom:10px;
+}
+
+
+footer div.footer{
+	background: url("images/sprite.png") no-repeat scroll 7px -212px transparent;
+    position:relative;
+    height: 29px;
+    margin: 0 auto;
+    width: 631px;
+	margin-top:10px;
+}
+
+footer div.line2{
+	width:867px;
+	height:2px;
+	background:black;
+	margin:0 auto;
+	margin-top:51px;
+	position:relative;
+}
+footer a{
+	width:31px;
+	height:30px;
+	margin:0 auto;
+	float:left;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+footer div.footer a.fb{
+	background:#3b5a9b;
+	 margin-left: 360px;
+}
+footer div.footer a.fb:hover{
+	background:#4978da;
+}
+footer div.footer a.twitter{
+	margin-left:10px;
+	background:#2b97f0;
+}
+footer div.footer a.twitter:hover{
+	background:#4978da;
+}
+footer div.footer a.pin{
+	margin-left:10px;
+	background:#ca2026;
+}
+footer div.footer a.pin:hover{
+	background:#ff5359;
+}
+footer div.footer a.in{
+	margin-left:10px;
+	background:#006599;
+}
+footer div.footer a.in:hover{
+	background:#3694c5;
+}
+footer div.footer a.google{
+	margin-left:10px;
+	background:#db2814;
+}
+footer div.footer a.google:hover{
+	background:#f44d3a;
+}
+footer div.footer a.dunked{
+	margin-left:10px;
+	background:#313b44;
+}
+footer div.footer a.dunked:hover{
+	background:#505f6c;
+}
+footer div.footer a.fb span,a.twitter span,a.google span,a.pin span,a.dunked span,a.in span{
+	width:31px;
+	height:30px;
+	margin:0 auto;
+	float:left;
+}
+footer div.footer a.fb span{
+	background: url("images/sprite.png") no-repeat scroll -14px -755px transparent;
+}
+
+footer div.footer a.twitter span{
+	background: url("images/sprite.png") no-repeat scroll -53px -755px transparent;
+}
+footer div.footer a.pin span{
+	background: url("images/sprite.png") no-repeat scroll -176px -755px transparent;
+}
+footer div.footer a.in span{
+	background: url("images/sprite.png") no-repeat scroll -94px -755px transparent;
+}
+footer div.footer a.google span{
+	background: url("images/sprite.png") no-repeat scroll -137px -755px transparent;
+}
+footer div.footer a.dunked span{
+	background: url("images/sprite.png") no-repeat scroll -217px -757px transparent;
+}
